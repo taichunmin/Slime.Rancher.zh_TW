@@ -10,6 +10,7 @@ l.tabby_slime = 斑貓史萊姆
 l.hunter_slime = 獵手史萊姆
 l.puddle_slime = 液狀史萊姆
 l.crystal_slime = 水晶史萊姆
+l.quantum_slime = 量子史萊姆
 
 l.tarr_slime = 焦油史萊姆
 l.gold_slime = 黃金史萊姆
@@ -51,6 +52,15 @@ l.boom_crystal_largo = 爆炸水晶史萊姆
 l.rad_crystal_largo = 輻射水晶史萊姆
 l.honey_crystal_largo = 蜂蜜水晶史萊姆
 l.hunter_crystal_largo = 獵手水晶史萊姆
+l.pink_quantum_largo = 粉紅量子史萊姆
+l.quantum_honey_largo = 量子蜂蜜史萊姆
+l.quantum_rad_largo = 量子輻射史萊姆
+l.quantum_boom_largo = 量子爆炸史萊姆
+l.quantum_phosphor_largo = 量子螢光史萊姆
+l.quantum_tabby_largo = 量子斑貓史萊姆
+l.quantum_hunter_largo = 量子獵手史萊姆
+l.quantum_crystal_largo = 量子水晶史萊姆
+l.quantum_rock_largo = 量子岩石史萊姆
 
 l.rad_plort = 輻射結晶
 l.rock_plort = 岩石結晶
@@ -62,6 +72,7 @@ l.tabby_plort = 斑貓結晶
 l.hunter_plort = 獵手結晶
 l.puddle_plort = 液狀結晶
 l.crystal_plort = 水晶結晶
+l.quantum_plort = 量子結晶
 
 l.gold_plort = 黃金結晶
 
@@ -69,6 +80,8 @@ l.cuberry_fruit = 方莓
 l.mango_fruit = 薄荷芒果
 l.pear_fruit = 棘梨
 l.pogo_fruit = 波戈果
+l.lemon_fruit = 相位檸檬
+l.lemon_phase = 相位檸檬
 
 l.carrot_veggie = 胡蘿蔔
 l.ocaoca_veggie = 奧卡薯
@@ -101,9 +114,18 @@ l.indigonium_craft = 靛青礦
 l.slime_fossil_craft = 史萊姆化石
 l.strange_diamond_craft = 奇異鑽石
 
-l.handlebar_fashion = Handlebar Moustache
-l.shady_fashion = Shades
-l.clip_on_fashion = Bow Tie
-l.googly_fashion = Googly Eyes
-l.serious_fashion = Serious Eyebrows
-l.smart_fashion = Glasses
+l.red_echo = 紅色回光
+l.green_echo = 綠色回光
+l.blue_echo = 藍色回光
+l.gold_echo = 金色回光
+
+l.handlebar_fashion = 翹鬍子
+l.shady_fashion = 墨鏡
+l.clip_on_fashion = 領結
+l.googly_fashion = 玩具眼
+l.serious_fashion = 粗眉毛
+l.smart_fashion = 眼鏡
+l.dandy_fashion = 單片眼鏡
+l.cute_fashion = 髮飾
+l.royal_fashion = 髮冠
+l.remover_fashion = 卸妝器

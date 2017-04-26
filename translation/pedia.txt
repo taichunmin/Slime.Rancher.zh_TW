@@ -16,159 +16,155 @@ m.resource_type.locked = ???
 # General
 t.basics = 基本操作
 m.intro.basics = 動次動次動起來。
-m.instructions.basics = <b>W</b>: Move forward \n\
-<b>A</b>: Move left \n\
-<b>S</b>: Move backward \n\
-<b>D</b>: Move right \n\
+m.instructions.basics = W：向前移動。\n\
+A：向左移動。\n\
+S：向後移動。\n\
+D：向右移動。\n\
 \n\
-<b>Shift</b>: Sprint (uses energy) \n\
+Shift：衝刺（消耗能量）。\n\
 \n\
-<b>Space</b>: Jump (hold to use jetpack, if available) \n\
+空白鍵：跳躍（按住可使用噴射背包，如果有的話）。\n\
 \n\
-<b>E</b>: Interact (when prompted)
-m.instructions.gamepad.basics = <b>Left Stick</b>: Move\n\
+E：互動（有提示時）。
+m.instructions.gamepad.basics = 左搖桿：移動。\n\
 \n\
-<b>Hold Left Stick</b>: Sprint (uses energy) \n\
+按住左搖桿：衝刺（消耗能量）。\n\
 \n\
-<b>A</b>: Jump (hold to use jetpack, if available) \n\
+A：跳躍（按住可使用噴射背包，如果有的話）。\n\
 \n\
-<b>X</b>: Interact (when prompted)
+X：互動（有提示時）。
 m.desc.basics =
 
-t.vacing = Vacpack: Vac-ing and Shooting
+t.vacing = 吸取與射擊
 m.intro.vacing = 成為大師級牧場主的第一步。
-m.instructions.vacing = <b>Right Mouse Button</b>: Vacuum slimes or other objects \n\
+m.instructions.vacing = 滑鼠右鍵：吸取史萊姆或其它物體。\n\
 \n\
 較大的物體會被吸在吸嘴上，可以透過放開吸取鍵將其放下或按射擊鍵將其射出。\n\
 \n\
-<b>Left Mouse Button</b>: Shoot slime or other object from the selected vac tank \n\
+滑鼠左鍵：將史萊姆或其它物體從選擇的吸取槽射出。\n\
 \n\
-Hold the shoot key to continuously shoot.
-m.instructions.gamepad.vacing = <b>Left Trigger</b>: Vacuum slimes or other objects \n\
+按住射擊鍵可連續射擊。
+m.instructions.gamepad.vacing = LT：吸取史萊姆或其它物體。\n\
 \n\
-Larger objects will be held at the nozzle and can be dropped \
-by releasing vac or fired by pressing shoot. \n\
+較大的物體會被吸在吸嘴上，可以透過放開吸取鍵將其放下或按射擊鍵將其射出。\n\
 \n\
-<b>Right Trigger</b>: Shoot slime or other object from the selected vac tank \n\
+RT：將史萊姆或其它物體從選擇的吸取槽射出。\n\
 \n\
-Hold the shoot button to continuously shoot.
+按住射擊鈕可連續射擊。
 m.desc.vacing =
 
-t.capturetanks = Vacpack: Vac Tanks
+t.capturetanks = 吸取槽
 m.intro.capturetanks = 奈米科技使萬事成真、萬物皆微。
-m.instructions.capturetanks = Vac tanks allow you to easily collect, sort, and transport \
-slimes and other resources. \n\
+m.instructions.capturetanks = 吸取槽讓你能輕鬆地採集、分類和運送\
+史萊姆及其它資源。\n\
 \n\
-<b>1, 2, 3, 4, 5</b>: Select vac tank \n\
-<b>Mouse Wheel</b>: Cycle through vac tanks
-m.instructions.gamepad.capturetanks = Vac tanks allow you to easily collect, sort, and transport \
-slimes and other resources. \n\
+1、2、3、4、5：選擇吸取槽。\n\
+滑鼠滾輪：循環切換吸取槽。
+m.instructions.gamepad.capturetanks = 吸取槽讓你能輕鬆地採集、分類和運送\
+史萊姆及其它資源。\n\
 \n\
-<b>Left Bumper/Right Bumper</b>: Cycle through vac tanks
+LB/RB：循環切換吸取槽。
 m.desc.capturetanks =
 
-t.energy = Vacpack: Health and Energy
+t.energy = 生命與能量
 m.intro.energy = 有得必有失。
-m.instructions.energy = Monitor your health and energy levels with the Health Meter and Energy Meter on the lower left \
-of the screen. \n\
+m.instructions.energy = 利用畫面左下角的生命計和能量計來監控生命和能量。\n\
 \n\
-Health will be automatically restored after not taking damage for a period of time. \n\
+生命在沒有受到傷害的一段時間後會自動恢復。\n\
 \n\
-Energy will be automatically restored after not using energy for a period of time.
+能量在沒有消耗能量的一段時間後會自動恢復。
 m.desc.energy =
 
-t.corralling = Ranching Basics: Corralling Slimes
-m.intro.corralling = You can contain them, but you can't stop the wiggle.
-m.instructions.corralling = Shoot slimes through corral walls to contain them and make them easier \
-to manage. But remember: hungry slimes will always find a way out of their corrals! \n\
+t.corralling = 圍住史萊姆
+m.intro.corralling = 你關得住牠們，但你止不住蠢動。
+m.instructions.corralling = 把史萊姆射入圍欄，將其圍住以方便管理。\
+切記：飢餓的史萊姆總是會設法逃出圍欄！\n\
 \n\
-<b>Mouse Wheel</b>: Select vac tank \n\
-<b>Left Mouse Button</b>: Shoot
-m.instructions.gamepad.corralling = Shoot slimes through corral walls to contain them and make them easier \
-to manage. But remember: hungry slimes will always find a way out of their corrals! \n\
+滑鼠滾輪：選擇吸取槽。\n\
+滑鼠左鍵：射擊。
+m.instructions.gamepad.corralling = 把史萊姆射入圍欄，將其圍住以方便管理。\
+切記：飢餓的史萊姆總是會設法逃出圍欄！\n\
 \n\
-<b>Left Bumper/Right Bumper</b>: Select vac tank \n\
-<b>Right Trigger</b>: Shoot
+LB/RB：選擇吸取槽。\n\
+RT：射擊。
 m.desc.corralling = 
 
-t.feeding = Ranching Basics: Feeding Slimes
-m.intro.feeding = A well-fed slime makes for a happy (and wealthy) rancher.
-m.instructions.feeding = Each slime has a particular diet. Most prefer either fruit, veggies, or meat. \
-When a slime eats, it produces a plort. \n\
+t.feeding = 餵食史萊姆
+m.intro.feeding = 營養充足的史萊姆，\n造就快樂（富裕）的牧場主。
+m.instructions.feeding = 每種史萊姆都有特定的食物。大多不是水果、蔬菜，就是肉類。\
+史萊姆進食後會產出結晶。\n\
 \n\
-However, most slimes have a favorite food. When a slime eats its favorite food it produces double plorts! \n\
+但大部分的史萊姆都有自己喜愛的食物。當史萊姆吃下自己喜愛的食物後，會產出雙倍結晶！\n\
 \n\
-<b>Mouse Wheel</b>: Select vac tank \n\
-<b>Left Mouse Button</b>: Shoot
-m.instructions.gamepad.feeding = Each slime has a particular diet. Most prefer either fruit, veggies, or meat. \
-When a slime eats, it produces a plort. \n\
+滑鼠滾輪：選擇吸取槽。\n\
+滑鼠左鍵：射擊。
+m.instructions.gamepad.feeding = 每種史萊姆都有特定的食物。大多不是水果、蔬菜，就是肉類。\
+史萊姆進食後會產出結晶。\n\
 \n\
-However, most slimes have a favorite food. When a slime eats its favorite food it produces double plorts! \n\
+但大部分的史萊姆都有自己喜愛的食物。當史萊姆吃下自己喜愛的食物後，會產出雙倍結晶！\n\
 \n\
-<b>Left Bumper/Right Bumper</b>: Select vac tank \n\
-<b>Right Trigger</b>: Shoot
+LB/RB：選擇吸取槽。\n\
+RT：射擊。
 m.desc.feeding =
 
-t.plorts = Ranching Basics: Plorts and the Plort Market
-m.intro.plorts = SELL! SELL! SELL!
-m.instructions.plorts = Vac up plorts and shoot them into the Plort Market to get newbucks. \
-Plort values fluctuate daily depending on the types of plorts you've recently sold. \n\
+t.plorts = 結晶與市場
+m.intro.plorts = 賣！賣！賣！
+m.instructions.plorts = 吸取結晶並將其射入結晶市場以獲得現金。\
+結晶價格會取決於你近期賣出的結晶種類每日波動。\n\
 \n\
-<b>Mouse Wheel</b>: Select vac tank \n\
-<b>Left Mouse Button</b>: Shoot
-m.instructions.gamepad.plorts = Vac up plorts and shoot them into the Plort Market to get newbucks. \
-Plort values fluctuate daily depending on the types of plorts you've recently sold. \n\
+滑鼠滾輪：選擇吸取槽。\n\
+滑鼠左鍵：射擊。
+m.instructions.gamepad.plorts = 吸取結晶並將其射入結晶市場以獲得現金。\
+結晶價格會取決於你近期賣出的結晶種類每日波動。\n\
 \n\
-<b>Left Bumper/Right Bumper</b>: Select vac tank \n\
-<b>Right Trigger</b>: Shoot
+LB/RB：選擇吸取槽。\n\
+RT：射擊。
 m.desc.plorts =
 
-t.ssbasics = Slime Science: Basics
-m.intro.ssbasics = Definitely weird.
-m.instructions.ssbasics = Slime Science allows you to use plorts and other resources to make \
-fantastic gadgets that you can install all over the world. \n\
+t.ssbasics = 史萊姆科學
+m.intro.ssbasics = 完全不可思議。
+m.instructions.ssbasics = 史萊姆科學讓你能利用結晶和其它資源，製作各種\
+可安裝在世界各地的奇妙裝置。\n\
 \n\
-Slime Science basics: \n\
-- Shoot plorts and resources into the Refinery (cannot be withdrawn once deposited) \n\
-- Buy new blueprints or discover them in treasure pods \n\
-- Use the Fabricator to make new gadgets \n\
-- <b>T</b>: Enter Gadget Mode \n\
-- Place gadgets in Gadget Mode \n\
-- <b>Left Mouse Button/Right Mouse Button</b>: Rotate gadget (when in Gadget Mode) \n\
+史萊姆科學入門：\n\
+- 將結晶和資源射入精鍊爐（一旦放入無法領出）。\n\
+- 購買或在寶藏匣裡發現新藍圖。\n\
+- 使用製作機以製作裝置。\n\
+- T：啟用裝置模式。\n\
+- 在裝置模式下安裝裝置。\n\
+- 滑鼠左鍵/滑鼠右鍵：旋轉裝置（在裝置模式下）。\n\
 \n\
-Visit the Slime Science section of the Slimepedia for more details on Slime Science.
-m.instructions.gamepad.ssbasics = Slime Science allows you to use plorts and other resources to make \
-fantastic gadgets that you can install all over the world. \n\
+造訪史萊姆百科的科學章節以查看更多史萊姆科學細節。
+m.instructions.gamepad.ssbasics = 史萊姆科學讓你能利用結晶和其它資源，製作各種\
+可安裝在世界各地的奇妙裝置。\n\
 \n\
-Slime Science basics: \n\
-- Shoot plorts and resources into the Refinery (cannot be withdrawn once deposited) \n\
-- Buy new blueprints or discover them in treasure pods \n\
-- Use the Fabricator to make new gadgets \n\
-- <b>Down</b>: Enter Gadget Mode \n\
-- Place gadgets in Gadget Mode \n\
-- <b>Left Trigger/Right Trigger</b>: Rotate gadget (when in Gadget Mode) \n\
+史萊姆科學入門：\n\
+- 將結晶和資源射入精鍊爐（一旦放入無法領出）。\n\
+- 購買或在寶藏匣裡發現新藍圖。\n\
+- 使用製作機以製作裝置。\n\
+- 下：啟用裝置模式。\n\
+- 在裝置模式下安裝裝置。\n\
+- LT/RT：旋轉裝置（在裝置模式下）。\n\
 \n\
-Visit the Slime Science section of the Slimepedia for more details on Slime Science.
+造訪史萊姆百科的科學章節以查看更多史萊姆科學細節。
 m.desc.ssbasics =
 
-t.gadgetmode = Slime Science: Gadget Mode
-m.intro.gadgetmode = A more scientific perspective.
-m.instructions.gadgetmode = In Gadget Mode you can see all available build sites where \
-you can install gadgets. \n\
+t.gadgetmode = 裝置模式
+m.intro.gadgetmode = 更科學的觀點。
+m.instructions.gadgetmode = 在裝置模式下，你能看到所有可以安裝裝置的點。\n\
 \n\
-<b>T</b>: Toggle Gadget Mode \n\
-<b>Left Mouse Button</b>: Rotate gadget clockwise \n\
-<b>Right Mouse Button</b>: Rotate gadget counter-clockwise \n\
+T：切換裝置模式。\n\
+滑鼠左鍵：順時針旋轉裝置。\n\
+滑鼠右鍵：逆時針旋轉裝置。\n\
 \n\
-NOTE: Your vacpack cannot vac or shoot while in Gadget Mode.
-m.instructions.gamepad.gadgetmode = In Gadget Mode you can see all available build sites where \
-you can install gadgets. \n\
+注意：在裝置模式下，吸取器無法吸取或射擊。
+m.instructions.gamepad.gadgetmode = 在裝置模式下，你能看到所有可以安裝裝置的點。\n\
 \n\
-<b>Down</b>: Toggle Gadget Mode \n\
-<b>Left Trigger</b>: Rotate gadget clockwise \n\
-<b>Right Trigger</b>: Rotate gadget counter-clockwise \n\
+下：切換裝置模式。\n\
+LT：順時針旋轉裝置。\n\
+RT：逆時針旋轉裝置。\n\
 \n\
-NOTE: Your vacpack cannot vac or shoot while in Gadget Mode.
+注意：在裝置模式下，吸取器無法吸取或射擊。
 m.desc.gadgetmode =
 
 # Slimes
@@ -261,7 +257,7 @@ m.plortonomics.boom_slime = 高度不穩定的爆炸結晶具有各式各樣的�
 	自行想像一下吧！
 
 t.honey_slime = 蜂蜜史萊姆
-m.intro.honey_slime = 「沒有東西能比（剛出爐的）蜂蜜結晶還甜的了。」
+m.intro.honey_slime = 沒有東西能比（剛出爐的）蜂蜜結晶還甜的了。
 m.diet.honey_slime = 水果
 m.favorite.honey_slime = 薄荷芒果
 m.slimeology.honey_slime = 蜂蜜史萊姆是由高甜度黏液化合物組成的怪異物種。大多數的\
@@ -338,6 +334,21 @@ m.plortonomics.crystal_slime = 雖然水晶史萊姆產生的水晶地面極度�
 	能讓更多的光線照到街道，空間變得更加一體「透氣」。建築師們常說，\
 	這些透明的金屬「完全比普通無聊的金屬更加酷炫」。
 
+t.quantum_slime = 量子史萊姆
+m.intro.quantum_slime = 真正展現潛能的史萊姆。
+m.diet.quantum_slime = 水果
+m.favorite.quantum_slime = 相位檸檬
+m.slimeology.quantum_slime = 量子史萊姆似乎是很久以前發生在遠古遺蹟的某種事件所造成的。\
+	在任何時候，量子史萊姆總是散發著其存在的其它可能的現實。\
+	那些被稱為「鬼影」的現實能夠成真，只要量子史萊姆與鬼影現實重疊，\
+	就會進行有效地傳送。
+m.risks.quantum_slime = 鑑於其獨特的能力，量子史萊姆可能是最難管理的史萊姆之一。\
+	牧場主需要學會察覺量子史萊姆何時準備接替鬼影現實並快速行動，\
+	例如餵食或向牠們灑一些淡水作為臨時措施。
+m.plortonomics.quantum_slime = 許多人認為量子結晶握有無限資源的祕密。\
+	鑑於量子史萊姆能改變現實的能力，其理論上解開了量子結晶的潛能，\
+	可以做到一種將其它實體的現實融合到我們現實中的技術，以及……好吧，\
+	基本上我們正在談論的就是複製。無限的能源，無限的雞，不論任何東西都能無限。完全沒有有害的副作用，大概。
 
 t.tarr_slime = 焦油史萊姆
 m.intro.tarr_slime = 可怕、飢餓、五顏六色。
@@ -538,6 +549,18 @@ m.how_to_use.pear = 將棘梨放入果園的機器裡，你便會獲得一大棵
 	這種果樹可以採收數次。
 m.desc.pear = （說明尚未推出）
 
+t.lemon = 相位檸檬
+m.intro.lemon = 摘自樹，植於……過去？未來？還是……？
+m.favored_by.lemon = 量子史萊姆
+m.resource_type.lemon = 水果
+m.how_to_use.lemon = 將相位檸檬放入果園的機器裡，你便會獲得一大棵屬於自己的相位檸檬樹。\
+	這種果樹可以採收數次。
+m.desc.lemon = 相位檸檬來自不同的時間與空間。它們就像是回聲，迴盪穿過遠古遺蹟的大廳，\
+	從不在同一個地方停留太久。\n\
+	\n\
+	要採收相位檸檬，牧場主必須趁檸檬出現時將水果穿過相位檸檬樹。\
+	這個過程會莫名地取走我們現實中的水果，並以相位中的檸檬作為交換。
+
 t.chickadoo = 小雞
 m.intro.chickadoo = 又小又軟，你甚至會以為牠們是用棉花糖填充的。
 m.favored_by.chickadoo = （非史萊姆食物）
@@ -645,7 +668,7 @@ m.desc.elder_hen = 老母雞們經歷了完整的一生。牠們遇過夢想中�
 t.primordy_oil_craft = 太初油
 m.intro.primordy_oil_craft = 這東西可是史前前前前的。
 m.favored_by.primordy_oil_craft = （非史萊姆食物）
-m.resource_type.primordy_oil_craft = 製作材料
+m.resource_type.primordy_oil_craft = 史萊姆科學材料
 m.how_to_use.primordy_oil_craft = 將太初油放入實驗室裡的精鍊爐以用來製作\
 	史萊姆科學裝置。
 m.desc.primordy_oil_craft = 太初油是一種能透過幫浦取得的常見資源。\n\
@@ -656,7 +679,7 @@ m.desc.primordy_oil_craft = 太初油是一種能透過幫浦取得的常見資�
 t.deep_brine_craft = 深海鹽水
 m.intro.deep_brine_craft = 就像是地球的鹽那樣。
 m.favored_by.deep_brine_craft = （非史萊姆食物）
-m.resource_type.deep_brine_craft = 製作材料
+m.resource_type.deep_brine_craft = 史萊姆科學材料
 m.how_to_use.deep_brine_craft = 將深海鹽水放入實驗室裡的精鍊爐以用來製作\
 	史萊姆科學裝置。
 m.desc.deep_brine_craft = 深海鹽水是一種僅能在乾旱礁地透過幫浦取得的常見資源。\n\
@@ -667,7 +690,7 @@ m.desc.deep_brine_craft = 深海鹽水是一種僅能在乾旱礁地透過幫浦
 t.spiral_steam_craft = 螺旋蒸氣
 m.intro.spiral_steam_craft = 如果你在尋找它，你會發現美妙之物。
 m.favored_by.spiral_steam_craft = （非史萊姆食物）
-m.resource_type.spiral_steam_craft = 製作材料
+m.resource_type.spiral_steam_craft = 史萊姆科學材料
 m.how_to_use.spiral_steam_craft = 將螺旋蒸氣放入實驗室裡的精鍊爐以用來製作\
 	史萊姆科學裝置。
 m.desc.spiral_steam_craft = 螺旋蒸氣是一種能透過幫浦取得的罕見資源。\n\
@@ -679,7 +702,7 @@ m.desc.spiral_steam_craft = 螺旋蒸氣是一種能透過幫浦取得的罕見�
 t.lava_dust_craft = 岩漿灰
 m.intro.lava_dust_craft = 對這個狀態的調查結果為：「未決定」
 m.favored_by.lava_dust_craft = （非史萊姆食物）
-m.resource_type.lava_dust_craft = 製作材料
+m.resource_type.lava_dust_craft = 史萊姆科學材料
 m.how_to_use.lava_dust_craft = 將岩漿灰放入實驗室裡的精鍊爐以用來製作\
 	史萊姆科學裝置。
 m.desc.lava_dust_craft = 岩漿灰是一種能透過幫浦取得的稀有資源。\n\
@@ -691,7 +714,7 @@ m.desc.lava_dust_craft = 岩漿灰是一種能透過幫浦取得的稀有資源�
 t.buzz_wax_craft = 蜂蠟
 m.intro.buzz_wax_craft = 可以用來製作香氛蠟燭，如果你喜歡蜜蜂腹部腺體味道的話。
 m.favored_by.buzz_wax_craft = （非史萊姆食物）
-m.resource_type.buzz_wax_craft = 製作材料
+m.resource_type.buzz_wax_craft = 史萊姆科學材料
 m.how_to_use.buzz_wax_craft = 將蜂蠟放入實驗室裡的精鍊爐以用來製作\
 	史萊姆科學裝置。
 m.desc.buzz_wax_craft = 蜂蠟是一種能透過蜂房取得的常見資源。\n\
@@ -703,7 +726,7 @@ m.desc.buzz_wax_craft = 蜂蠟是一種能透過蜂房取得的常見資源。\n
 t.wild_honey_craft = 野蜂蜜
 m.intro.wild_honey_craft = 配茶喝或在沒人時偷舔一口，味道棒極了。
 m.favored_by.wild_honey_craft = （非史萊姆食物）
-m.resource_type.wild_honey_craft = 製作材料
+m.resource_type.wild_honey_craft = 史萊姆科學材料
 m.how_to_use.wild_honey_craft = 將野蜂蜜放入實驗室裡的精鍊爐以用來製作\
 	史萊姆科學裝置。
 m.desc.wild_honey_craft = 野蜂蜜是一種僅能在苔蘚之地透過蜂房取得的常見資源。\n\
@@ -716,7 +739,7 @@ m.desc.wild_honey_craft = 野蜂蜜是一種僅能在苔蘚之地透過蜂房取
 t.hexacomb_craft = 蜂巢
 m.intro.hexacomb_craft = 蜜蜂與幾何學：巧克力與天然花生醬。
 m.favored_by.hexacomb_craft = （非史萊姆食物）
-m.resource_type.hexacomb_craft = 製作材料
+m.resource_type.hexacomb_craft = 史萊姆科學材料
 m.how_to_use.hexacomb_craft = 將蜂巢放入實驗室裡的精鍊爐以用來製作\
 	史萊姆科學裝置。
 m.desc.hexacomb_craft = 蜂巢是一種能透過蜂房取得的罕見資源。\n\
@@ -727,7 +750,7 @@ m.desc.hexacomb_craft = 蜂巢是一種能透過蜂房取得的罕見資源。\n
 t.royal_jelly_craft = 蜂王漿
 m.intro.royal_jelly_craft = 萬漿之王……直到與蜂后相遇。
 m.favored_by.royal_jelly_craft = （非史萊姆食物）
-m.resource_type.royal_jelly_craft = 製作材料
+m.resource_type.royal_jelly_craft = 史萊姆科學材料
 m.how_to_use.royal_jelly_craft = 將蜂王漿放入實驗室裡的精鍊爐以用來製作\
 	史萊姆科學裝置。
 m.desc.royal_jelly_craft = 蜂王漿是一種能透過蜂房取得的稀有資源。\n\
@@ -741,7 +764,7 @@ m.desc.royal_jelly_craft = 蜂王漿是一種能透過蜂房取得的稀有資�
 t.jellystone_craft = 凝膠石
 m.intro.jellystone_craft = 它是固體但又黏黏的。
 m.favored_by.jellystone_craft = （非史萊姆食物）
-m.resource_type.jellystone_craft = 製作材料
+m.resource_type.jellystone_craft = 史萊姆科學材料
 m.how_to_use.jellystone_craft = 將凝膠石放入實驗室裡的精鍊爐以用來製作\
 	史萊姆科學裝置。
 m.desc.jellystone_craft = 凝膠石是一種能透過電鑽取得的常見資源。\n\
@@ -752,7 +775,7 @@ m.desc.jellystone_craft = 凝膠石是一種能透過電鑽取得的常見資源
 t.indigonium_craft = 靛青礦
 m.intro.indigonium_craft = 重金屬專家們通常稱呼這堅硬的礦石為「玄紫」。
 m.favored_by.indigonium_craft = （非史萊姆食物）
-m.resource_type.indigonium_craft = 製作材料
+m.resource_type.indigonium_craft = 史萊姆科學材料
 m.how_to_use.indigonium_craft = 將靛青礦放入實驗室裡的精鍊爐以用來製作\
 	史萊姆科學裝置。
 m.desc.indigonium_craft =  靛青礦是一種僅能在靛青礦場透過電鑽取得的常見資源。\n\
@@ -763,7 +786,7 @@ m.desc.indigonium_craft =  靛青礦是一種僅能在靛青礦場透過電鑽�
 t.slime_fossil_craft = 史萊姆化石
 m.intro.slime_fossil_craft = 如果歷史會笑，它看起來就像這樣。
 m.favored_by.slime_fossil_craft = （非史萊姆食物）
-m.resource_type.slime_fossil_craft = 製作材料
+m.resource_type.slime_fossil_craft = 史萊姆科學材料
 m.how_to_use.slime_fossil_craft = 將史萊姆化石放入實驗室裡的精鍊爐以用來製作\
 	史萊姆科學裝置。
 m.desc.slime_fossil_craft = 史萊姆化石是一種能透過電鑽取得的罕見資源。\n\
@@ -774,7 +797,7 @@ m.desc.slime_fossil_craft = 史萊姆化石是一種能透過電鑽取得的罕�
 t.strange_diamond_craft = 奇異鑽石
 m.intro.strange_diamond_craft = 非常奇怪，但更有價值。
 m.favored_by.strange_diamond_craft = （非史萊姆食物）
-m.resource_type.strange_diamond_craft = 製作材料
+m.resource_type.strange_diamond_craft = 史萊姆科學材料
 m.how_to_use.strange_diamond_craft = 將奇異鑽石放入實驗室裡的精鍊爐以用來製作\
 	史萊姆科學裝置。
 m.desc.strange_diamond_craft = 奇異鑽石是一種能透過電鑽取得的稀有資源。\n\
@@ -782,6 +805,30 @@ m.desc.strange_diamond_craft = 奇異鑽石是一種能透過電鑽取得的稀�
 	即使在黑暗中，這些鑽石似乎也能閃耀著猶如光線穿過它們的光芒。奇異鑽石在\
 	各種傳送科技上的應用有相當高的價值。由於其不可思議的密度及\
 	複雜結構，就算再多次凹折之後，奇異鑽石仍能夠在其內部深深地反射光線。
+
+t.echoes = 回光
+m.intro.echoes = 一種光點，又或許是……一段記憶？
+m.favored_by.echoes = （非史萊姆食物）
+m.resource_type.echoes = 獨特
+m.how_to_use.echoes = 回光可以用來作為裝飾。只需要吸取並射向任何你想要的位置即可。\
+	它們會懸停在該處，直到你吸走為止。
+m.desc.echoes = 在遠古遺蹟的斷垣殘壁內可以發現從不在同一個地方停留太久的微弱能量痕跡。\
+	這些東西被稱為回光，它們被認為是某種古代事件引起的現象。\
+	由於它們是無害的，所以回光通常會被牧場主蒐集來作為好運小物或裝飾品。\n\
+	\n\
+	回光經常會出現在遠古遺蹟的角落和裂縫，萃取器也會採集到。
+
+t.slime_toys = 史萊姆玩具
+m.intro.slime_toys = 永不放棄玩耍。
+m.favored_by.slime_toys = （依史萊姆不同）
+m.resource_type.slime_toys = 獨特
+m.desc.slime_toys = 史萊姆玩具有各種形式，每種都能降低附近史萊姆的躁動，\
+	所以扔一個在圍欄裡給史萊姆玩是個不錯的主意。\n\
+	\n\
+	每種史萊姆都有喜愛的玩具，能大幅降低牠們的躁動。混種史萊姆會喜愛自身種類的任何一種。\n\
+	\n\
+	史萊姆玩具的安撫效果不會疊加，雖然你不需要在圍欄裡放超過一個，\
+	但就算多放也沒有壞處！
 
 # Ranch Tech
 t.corral = 圍欄
@@ -882,10 +929,36 @@ m.desc.lab = 實驗室是一棟延伸自牧場的穀倉，裡頭有著哈伯森�
 	建議有經驗的牧場主再解鎖實驗室，因為史萊姆科學需要\
 	大量的資源和金錢來精通。
 
+t.docks = 碼頭
+m.intro.docks = 在藍色汪洋的深處，我看到了數千隻史萊姆對我微笑。
+m.desc.docks = 碼頭是一塊延伸自牧場的土地，那裡有沿著海濱的舒適小瞭望臺。\
+	這片區域提供了幾個側面有著漁網的額外牧場用地。\
+	漁網可以用來暫時抓住逃脫的史萊姆，或者作為創作史萊姆拼貼的手段，因為很有趣。\n\
+	\n\
+	它還擁有一個天然的泉源，讓你能無限量地將儲水槽儲滿淡水，\
+	或者放牧偏好浸泡在自然環境的液狀史萊姆。
+
+t.partner = 7Zee獎勵俱樂部
+m.intro.partner = 格調。洗練。7Zee。
+m.desc.partner = 7Zee獎勵俱樂部是一個自由參加的活動，讓你能用大筆金額購買聲望獎勵。\
+	每個階級都會獲得獨特的獎勵和新的階級稱號。\n\
+	\n\
+	某些牧場主指出整件事似乎是一種大量吸錢的手法，以換取毫無實際用途的花俏顏色和獎盃。\
+	但那些牧場主沒有體驗過最新、最時尚的吸取器顏色，\
+	顯然是不可信的。
+
+t.chroma = 配色布景
+m.intro.chroma = 當畫作的顏色超過你能算出的數量時總是更加美麗。
+m.desc.chroma = 7Zee獎勵俱樂部獲得的配色布景可以從牧場上的終端裝置套用。\
+	它們讓你能套用獲得的配色方案於你的牧場小屋、吸取器，以及諸如圍欄和筒倉之類的科技設施。\n\
+	\n\
+	你可以透過繼續在7Zee獎勵俱樂部晉級來取得更多配色布景。\
+	只有最成功的牧場主才能炫耀最稀有的配色布景！
+
 # Range
 t.reef = 乾旱礁地
-m.intro.reef = 現今沐浴在金色陽光下的古珊瑚海床。
-m.desc.reef = 環繞牧場的這片區域被稱為乾旱礁地，這裡是個乾燥、多風的陸地，\
+m.intro.reef = 現今沐浴在金色陽光下的\n古珊瑚海床。
+m.desc.reef = 環繞牧場的這片區域被稱為乾旱礁地，是個乾燥、多風的陸地，\
 	到處都是布滿灰塵的峭壁和千年來風蝕形成的岩石懸崖。\n\
 	\n\
 	乾旱礁地主要是粉紅、斑貓和岩石史萊姆的棲息地，不過螢光史萊姆也會在日落之後露面。\
@@ -913,6 +986,16 @@ m.desc.moss = 苔蘚之地是一座被厚厚的苔蘚覆蓋的島嶼，這裡植
 	苔蘚之地主要發現的史萊姆種類都為適應叢林環境的：斑貓和爆炸史萊姆\
 	放縱地穿梭在叢林間捕食獵物，而蜂蜜史萊姆躺在花床中吃著\
 	俯拾即是的豐盛水果。
+
+t.ruins = 遠古遺蹟
+m.intro.ruins = 所有失去的最終被尋回，並再次失去。
+m.desc.ruins = 隱藏在廣闊的山脈後面，遠古遺蹟是遠遠星球上少數已知的非自然建築物之一。\
+	它的由來，以及遺蹟內發生的奇怪現象仍然是個謎。\n\
+	\n\
+	這裡是量子史萊姆的棲息地，牠們似乎散發著許多其存在的其它可能的現實，\
+	而且相位檸檬樹也不會在同一個地方存在很長時間，遠古遺蹟是違反常理及不可預料的。\n\
+	\n\
+	在遠古遺蹟中唯有一件事是肯定的：那就是在它最深處的密室裡埋藏著天大的祕密。
 
 t.desert = 玻璃沙漠
 m.intro.desert = 待定
@@ -1053,6 +1136,15 @@ t.phosphor_crystal_largo = 螢光水晶史萊姆
 t.rad_crystal_largo = 輻射水晶史萊姆
 t.rock_crystal_largo = 岩石水晶史萊姆
 t.tabby_crystal_largo = 斑貓水晶史萊姆
+t.pink_quantum_largo = 粉紅量子史萊姆
+t.quantum_boom_largo = 量子爆炸史萊姆
+t.quantum_crystal_largo = 量子水晶史萊姆
+t.quantum_honey_largo = 量子蜂蜜史萊姆
+t.quantum_hunter_largo = 量子獵手史萊姆
+t.quantum_phosphor_largo = 量子螢光史萊姆
+t.quantum_rad_largo = 量子輻射史萊姆
+t.quantum_rock_largo = 量子岩石史萊姆
+t.quantum_tabby_largo = 量子斑貓史萊姆
 
 ##### Plorts HUD Only #####
 t.gold_plort = 黃金結晶
@@ -1066,6 +1158,13 @@ t.honey_plort = 蜂蜜結晶
 t.hunter_plort = 獵手結晶
 t.puddle_plort = 液狀結晶
 t.crystal_plort = 水晶結晶
+t.quantum_plort = 量子結晶
+
+##### Echoes HUD Only #####
+t.red_echo = 紅色回光
+t.green_echo = 綠色回光
+t.blue_echo = 藍色回光
+t.gold_echo = 金色回光
 
 ##### Gordos HUD Only #####
 t.pink_gordo = 粉紅胖胖史萊姆
@@ -1077,6 +1176,22 @@ t.boom_gordo = 爆炸胖胖史萊姆
 t.honey_gordo = 蜂蜜胖胖史萊姆
 t.hunter_gordo = 獵手胖胖史萊姆
 t.puddle_gordo = 液狀胖胖史萊姆
+t.crystal_gordo = 水晶胖胖史萊姆
+t.quantum_gordo = 量子胖胖史萊姆
+
+##### Toys HUD Only #####
+t.beach_ball_toy = 沙灘球
+t.big_rock_toy = 大石頭
+t.yarn_ball_toy = 毛線球
+t.night_light_toy = 小夜燈
+t.power_cell_toy = 電池
+t.bomb_ball_toy = 炸彈
+t.buzzy_bee_toy = 嗡嗡蜂
+t.rubber_ducky_toy = 橡皮鴨
+t.crystal_ball_toy = 水晶球
+t.stuffed_chicken_toy = 雞布偶
+t.puzzle_cube_toy = 拼圖方塊
+t.disco_ball_toy = 舞廳燈
 
 ##### For personal upgrade panel #####
 m.upgrade.name.personal.liquid_slot = 儲水槽
@@ -1113,6 +1228,32 @@ m.upgrade.name.personal.treasure_cracker_2 = 寶藏破解器II型
 m.upgrade.desc.personal.treasure_cracker_2 = 讓你能繞過進階寶藏匣的鎖。
 m.upgrade.name.personal.treasure_cracker_3 = 寶藏破解器III型
 m.upgrade.desc.personal.treasure_cracker_3 = 讓你能繞過最進階寶藏匣的鎖。
+
+##### For Slime Toy Shop #####
+m.toy.name.beach_ball = 沙灘球
+m.toy.desc.beach_ball = 降低附近史萊姆的躁動，特別是愛在陽光下享樂的粉紅史萊姆。
+m.toy.name.big_rock = 大石頭
+m.toy.desc.big_rock = 降低附近史萊姆的躁動，特別是顯然不了解玩具的岩石史萊姆。
+m.toy.name.yarn_ball = 毛線球
+m.toy.desc.yarn_ball = 降低附近史萊姆的躁動，特別是斑貓史萊姆。不過，牠們比起其他史萊姆並沒有比較會編織。
+m.toy.name.night_light = 小夜燈
+m.toy.desc.night_light = 降低附近史萊姆的躁動，特別是和我們一樣會被黑暗驚嚇的螢光史萊姆。
+m.toy.name.power_cell = 電池
+m.toy.desc.power_cell = 降低附近史萊姆的躁動，特別是喜歡危險地生活的輻射史萊姆。
+m.toy.name.bomb_ball = 炸彈
+m.toy.desc.bomb_ball = 降低附近史萊姆的躁動，特別是也許認為這樣很好玩的爆炸史萊姆。
+m.toy.name.buzzy_bee = 嗡嗡蜂
+m.toy.desc.buzzy_bee = 降低附近史萊姆的躁動，特別是喜愛蜜蜂的蜂蜜史萊姆。
+m.toy.name.rubber_ducky = 橡皮鴨
+m.toy.desc.rubber_ducky = 降低附近史萊姆的躁動，特別是當橡皮鴨伙伴在旁時比較不會害羞的液狀史萊姆。
+m.toy.name.crystal_ball = 水晶球
+m.toy.desc.crystal_ball = 降低附近史萊姆的躁動，特別是能使用它預見未來但絕不透露的水晶史萊姆。
+m.toy.name.stuffed_chicken = 雞布偶
+m.toy.desc.stuffed_chicken = 降低附近史萊姆的躁動，特別是愛假裝謀殺玩具的獵手史萊姆。
+m.toy.name.puzzle_cube = 拼圖方塊
+m.toy.desc.puzzle_cube = 降低附近史萊姆的躁動，特別是之前已經拼好又沒有拼好方塊的量子史萊姆。
+m.toy.name.disco_ball = 舞廳燈
+m.toy.desc.disco_ball = 待定
 
 ##### For gadget panels #####
 m.gadget.name.extractor_drill_novice = 新手電鑽
@@ -1208,24 +1349,45 @@ m.gadget.desc.lamp_red = 一盞住著快樂史萊姆的裝飾燈。
 m.gadget.name.lamp_amber = 珀色史萊姆燈
 m.gadget.desc.lamp_amber = 一盞住著快樂史萊姆的裝飾燈。
 
-m.gadget.name.fashion_pod_handlebar = Handlebar Fashion Pod
-m.gadget.desc.fashion_pod_handlebar = Fashion pods allow you to vac up fashionable accessories for your slimes. \
-    Shoot them on to slimes to totally up their game.
-m.gadget.name.fashion_pod_shady = Shady Fashion Pod
-m.gadget.desc.fashion_pod_shady = Fashion pods allow you to vac up fashionable accessories for your slimes. \
-    Shoot them on to slimes to totally up their game.
-m.gadget.name.fashion_pod_clip_on = Clip-On Fashion Pod
-m.gadget.desc.fashion_pod_clip_on = Fashion pods allow you to vac up fashionable accessories for your slimes. \
-    Shoot them on to slimes to totally up their game.
-m.gadget.name.fashion_pod_googly = Googly Fashion Pod
-m.gadget.desc.fashion_pod_googly = Fashion pods allow you to vac up fashionable accessories for your slimes. \
-    Shoot them on to slimes to totally up their game.
-m.gadget.name.fashion_pod_serious = Serious Fashion Pod
-m.gadget.desc.fashion_pod_serious = Fashion pods allow you to vac up fashionable accessories for your slimes. \
-    Shoot them on to slimes to totally up their game.
-m.gadget.name.fashion_pod_smart = Smart Fashion Pod
-m.gadget.desc.fashion_pod_smart = Fashion pods allow you to vac up fashionable accessories for your slimes. \
-    Shoot them on to slimes to totally up their game.
+m.gadget.name.gordo_snare_novice = 新手胖胖史萊姆陷阱
+m.gadget.desc.gordo_snare_novice = 一個可捕捉胖胖史萊姆的特殊陷阱。用食物做餌，然後等待……
+m.gadget.name.gordo_snare_advanced = 專家胖胖史萊姆陷阱
+m.gadget.desc.gordo_snare_advanced = 一個更高級的隨機誤差較小的胖胖史萊姆陷阱。用食物做餌，然後等待……
+m.gadget.name.gordo_snare_master = 大師胖胖史萊姆陷阱
+m.gadget.desc.gordo_snare_master = 一個大師級的胖胖史萊姆陷阱，保證能捉到對應喜愛食物的胖胖史萊姆。
+
+m.gadget.name.echo_net = 回光網
+m.gadget.desc.echo_net = 將這個奇怪的裝置安裝在遠古遺蹟以隨時捕捉遊蕩的回光。
+
+m.gadget.name.fashion_pod_handlebar = 翹鬍時尚艙
+m.gadget.desc.fashion_pod_handlebar = 時尚艙讓你能吸取史萊姆專用的造型配件。\
+    將配件射向史萊姆可使牠們更加有型。
+m.gadget.name.fashion_pod_shady = 墨鏡時尚艙
+m.gadget.desc.fashion_pod_shady = 時尚艙讓你能吸取史萊姆專用的造型配件。\
+    將配件射向史萊姆可使牠們更加有型。
+m.gadget.name.fashion_pod_clip_on = 領結時尚艙
+m.gadget.desc.fashion_pod_clip_on = 時尚艙讓你能吸取史萊姆專用的造型配件。\
+    將配件射向史萊姆可使牠們更加有型。
+m.gadget.name.fashion_pod_googly = 大眼時尚艙
+m.gadget.desc.fashion_pod_googly = 時尚艙讓你能吸取史萊姆專用的造型配件。\
+    將配件射向史萊姆可使牠們更加有型。
+m.gadget.name.fashion_pod_serious = 濃眉時尚艙
+m.gadget.desc.fashion_pod_serious = 時尚艙讓你能吸取史萊姆專用的造型配件。\
+    將配件射向史萊姆可使牠們更加有型。
+m.gadget.name.fashion_pod_smart = 精明時尚艙
+m.gadget.desc.fashion_pod_smart = 時尚艙讓你能吸取史萊姆專用的造型配件。\
+    將配件射向史萊姆可使牠們更加有型。
+m.gadget.name.fashion_pod_dandy = 雅痞時尚艙
+m.gadget.desc.fashion_pod_dandy = 時尚艙讓你能吸取史萊姆專用的造型配件。\
+    將配件射向史萊姆可使牠們更加有型。
+m.gadget.name.fashion_pod_cute = 可愛時尚艙
+m.gadget.desc.fashion_pod_cute = 時尚艙讓你能吸取史萊姆專用的造型配件。\
+    將配件射向史萊姆可使牠們更加有型。
+m.gadget.name.fashion_pod_royal = 皇家時尚艙
+m.gadget.desc.fashion_pod_royal = 時尚艙讓你能吸取史萊姆專用的造型配件。\
+    將配件射向史萊姆可使牠們更加有型。
+m.gadget.name.fashion_pod_remover = 卸妝艙
+m.gadget.desc.fashion_pod_remover = 一種可卸除史萊姆身上造型配件的特殊時尚艙。
 
 m.gadget.name.sponge_tree = 海棉樹
 m.gadget.desc.sponge_tree = 海棉樹能在乾旱的數個月裡儲存大量水分。
@@ -1240,8 +1402,8 @@ m.gadget.name.mossy_tree = 苔蘚樹
 m.gadget.desc.mossy_tree = 一棵在苔蘚之地盤結的灌木叢中所發現的鬱綠樹木。
 m.gadget.name.mossy_tree_stump = 苔蘚樹墩
 m.gadget.desc.mossy_tree_stump = 一棵苔蘚之地的巨樹所僅剩的一切。
-m.gadget.name.glow_cones = 夜光松果
-m.gadget.desc.glow_cones = 一種奇異的松果，探險者們大都用來在夜間探路。
+m.gadget.name.glow_cones = 夜光球果
+m.gadget.desc.glow_cones = 一種奇異的球果，探險者們大都用來在夜間探路。
 m.gadget.name.wildflower_patch = 野花草皮
 m.gadget.desc.wildflower_patch = 一塊上頭有著甜蜜香氣的花簇草皮，是蜂蜜史萊姆的最愛。
 m.gadget.name.jumbo_shroom = 超大蘑菇
@@ -1257,3 +1419,50 @@ m.gadget.name.crystal_cluster = 水晶簇
 m.gadget.desc.crystal_cluster = 你可能會以為這是一堆水晶，那你就錯了。
 m.gadget.name.fireflower_patch = 火花草皮
 m.gadget.desc.fireflower_patch = 生長自火山灰的花，有著火熱的色調。
+
+m.gadget.name.sunburst_tree = 日耀樹
+m.gadget.desc.sunburst_tree = 一棵來自神祕遺蹟的樹，其金色的樹葉如太陽一般耀眼。
+m.gadget.name.verdant_grass_patch = 翠綠草皮
+m.gadget.desc.verdant_grass_patch = 遺蹟的草出奇茂盛，仿佛土壤中含有礦物質，與遠遠星球上的其它地方不同。
+m.gadget.name.star_flower_patch = 星花草皮
+m.gadget.desc.star_flower_patch = 據說星花是從流星的碎片生長出來的，但當然，那是不可能的。
+m.gadget.name.ruined_pillar = 遺蹟石柱
+m.gadget.desc.ruined_pillar = 遺蹟的岩石結構曾經支撐了巨大的神殿，也有人說，支撐了時間本身。
+m.gadget.name.glow_sticks = 夜光棒
+m.gadget.desc.glow_sticks = 雖然這些發光裝置與遺蹟的其它元素相似，但它們幾乎像新的一樣。
+m.gadget.name.crystal_sconce = 水晶壁燈
+m.gadget.desc.crystal_sconce = 這些壁燈的光似乎是無窮無盡的，也許照亮了現在，也照亮了過去。
+
+##### For color palette panels #####
+m.palette.desc = 添加配色布景到你的牧場小屋、吸取器或科技設施。盡情展現自我吧！
+m.palette.name.default = 傳統
+m.palette.name.palette01 = 鈷藍
+m.palette.name.palette02 = 黃昏
+m.palette.name.palette03 = 騎士之光
+m.palette.name.palette04 = 葡萄彈
+m.palette.name.palette05 = 金剛戰士
+m.palette.name.palette06 = 變形金剛
+m.palette.name.palette07 = 皇家頓
+m.palette.name.palette08 = 火蜥蜴
+m.palette.name.palette09 = 鬼酒
+m.palette.name.palette10 = 鞭炮
+m.palette.name.palette11 = 香草巧克力草莓
+m.palette.name.palette12 = 薄荷巧克力
+m.palette.name.palette13 = 火山
+m.palette.name.palette14 = 星體珍珠
+m.palette.name.palette15 = 金葉
+m.palette.name.palette16 = 冷紫
+m.palette.name.palette17 = 楊柳
+m.palette.name.palette18 = 先鋒
+m.palette.name.palette19 = 響亮之聲
+m.palette.name.palette20 = 薑餅
+m.palette.name.palette21 = 豌豆莢
+m.palette.name.palette22 = 破曉
+m.palette.name.palette23 = 奶昔
+m.palette.name.palette24 = 銀狐
+m.palette.name.palette25 = 紫水晶
+m.palette.name.palette26 = 紅寶石
+m.palette.name.palette27 = Palette27
+m.palette.name.palette28 = Palette28
+m.palette.name.palette29 = Palette29
+m.palette.name.palette30 = Palette30

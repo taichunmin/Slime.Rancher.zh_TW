@@ -52,6 +52,8 @@ t.discovered_moss = 遙遠的彼端
 m.reqmt.discovered_moss = 發現苔蘚之地
 t.discovered_desert = 煙、火、鏡
 m.reqmt.discovered_desert = 發現玻璃沙漠
+t.discovered_ruins = 回到過去
+m.reqmt.discovered_ruins = 發現遠古遺蹟
 
 t.burst_gordo = 果凍炸裂
 m.reqmt.burst_gordo = 讓一隻胖胖史萊姆撐炸
@@ -114,3 +116,27 @@ m.reqmt.time_limit_currency_b = 在五日挑戰模式結束時賺取至少25000�
 
 t.time_limit_currency_c = 五日結晶大師
 m.reqmt.time_limit_currency_c = 在五日挑戰模式結束時賺取至少50000元
+
+t.fabricate_gadgets_a = 前進科學！
+m.reqmt.fabricate_gadgets_a = 製作第一個史萊姆科學裝置
+
+t.fabricate_gadgets_b = 小小製作家
+m.reqmt.fabricate_gadgets_b = 製作35個史萊姆科學裝置
+
+t.fabricate_gadgets_c = 創作永不停息
+m.reqmt.fabricate_gadgets_c = 製作100個史萊姆科學裝置
+
+t.slime_stage_tarr = 好壞蛋
+m.reqmt.slime_stage_tarr = 將一隻焦油史萊姆放上#1史萊姆舞台
+
+t.slimeball_score = 燃起來啦！
+m.reqmt.slimeball_score = 在單場史萊姆投籃賽中獲得50分
+
+t.join_rewards_club = 一人獨享
+m.reqmt.join_rewards_club = 加入7Zee獎勵俱樂部
+
+t.use_chromas = 繽紛驚豔
+m.reqmt.use_chromas = 使用配色布景來改變牧場小屋、科技設施和吸取器的顏色
+
+t.collect_slime_toys = 全新未拆封
+m.reqmt.collect_slime_toys = 購買至少10種不同種類的史萊姆玩具

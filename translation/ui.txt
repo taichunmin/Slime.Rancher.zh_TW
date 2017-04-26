@@ -1,13 +1,14 @@
 
 # Watermark
 l.version_watermark = CodeBay.in 正體中文模組 v{0} 
+l.version_watermark_xbox = CodeBay.in 正體中文模組 v{0}
 l.version_full_watermark = Version: {0} ({1})
 l.version = v{0}
 
 # Slimepedia pages (Note: for per-topic info, see pedia.txt)
 t.pedia = 史萊姆百科
-m.new_pedia_entry = 新 百 科 條 目 ：
-b.tutorials = Tutorials
+m.new_pedia_entry = 新百科條目：
+b.tutorials = 教學
 b.slimes = 史萊姆
 b.resources = 資源
 b.ranch = 牧場
@@ -31,6 +32,8 @@ m.pedia_hint = {0}：史萊姆百科
 m.hudinfo_diet = 食物：{0}
 m.hudinfo_type = 食物種類：{0}
 m.hudinfo_plort = 種類：結晶
+m.hudinfo_echo = 種類：回光
+m.hudinfo_toy = 種類：史萊姆玩具
 
 m.foodgroup.veggies = 蔬菜
 m.foodgroup.fruit = 水果
@@ -67,11 +70,16 @@ m.press_to_use_key.pre_gamepad = 按
 m.press_to_use_key.post_gamepad = 使用史萊姆鑰匙
 m.needs_key = 需要一把史萊姆鑰匙以開啟
 m.ranch_house_unavailable = 試玩版不能使用牧場小屋
+m.lab_unavailable = 試玩版不能使用實驗室
 m.press_to_open_pod = 按 {0} 打開寶藏匣
 m.press_to_open_pod.pre_gamepad = 按
 m.press_to_open_pod.post_gamepad = 打開寶藏匣
 m.needs_treasure_cracker = 鎖住的寶藏匣
 m.insuf_treasure_cracker = 需要更進階的寶藏破解器
+m.press_to_open_gate = 按 {0} 打開大門
+m.press_to_open_gate.pre_gamepad = 按
+m.press_to_open_gate.post_gamepad = 打開大門
+m.gate_locked = 大門鎖住了
 
 b.purchase = 購買
 b.place = 安裝
@@ -85,16 +93,22 @@ b.utilities = 輔助工具
 b.decorations = 裝飾品
 b.curios = 新奇玩物
 
+b.tech = 科技設施
+b.house = 牧場小屋
+b.vac = 吸取器
+b.select = 選擇
+b.already_selected = 已選擇
+
 # Plot screens
 l.cost = 費用：
 m.upgrades = 升級：
 b.demolish = 拆除
 b.pick_up = 撿取
-l.demolish_plot = 拆除空地
+l.demolish_plot = 拆除用地
 l.demolish_gadget = 拆除裝置
 l.demolish_linked_gadget = 拆除連結裝置
 l.pick_up_gadget = 撿取裝置
-m.desc.demolish_plot = 清除此牧場空地，讓你能建造新的東西。
+m.desc.demolish_plot = 清除此牧場用地，讓你能建造新的東西。
 m.desc.demolish_gadget = 拆除此裝置，讓你能安裝新的裝置於此。
 m.desc.demolish_linked_gadget = 拆除此裝置和其安裝在別處的連結裝置。
 m.desc.pick_up_gadget = 撿取此裝置，讓你能再安裝到別處。
@@ -108,7 +122,7 @@ w.destroying_silo_destroys_contents = 拆除筒倉將會破壞其內的東西！
 w.limit_reached_drill = 電鑽已達安裝上限：6。
 w.limit_reached_pump = 幫浦已達安裝上限：6。
 w.limit_reached_apiary = 蜂房已達安裝上限：6。
-w.cannot_demolish_corral_tutorial = You cannot demolish the corral at this time.
+w.cannot_demolish_corral_tutorial = 無法在此時拆除圍欄。
 b.limit_reached = 已達上限
 
 t.empty_plot = 牧場空地
@@ -145,12 +159,19 @@ t.personal_upgrades = 吸取器升級
 e.already_has_personal_upgrade = 你已經擁有此升級。
 e.ineligible_for_personal_upgrade = 此升級尚未開放。
 
+# Slime Toy Store
+t.slime_toys = 史萊姆玩具
+
 # Main House
 t.ranch_house = 牧場小屋
 b.sleep_until_morning = 睡到天亮
 b.mail = 星際郵件
 b.leave_to_ranch = 返回牧場
 m.select_mail = 從左側選擇一封星際郵件。
+
+m.new_mail = 收到星際郵件！
+m.mail_from_wrap = 寄件者：{0}
+m.new_mail_hint = 前往牧場小屋查看。
 
 # Main Menu/Game loading bits
 t.new_game = 創建新遊戲
@@ -167,6 +188,7 @@ m.default_game_name = Game{0}
 e.game_name_exists = 遊戲名稱已存在。
 e.letters_nums_only = 遊戲名稱只能包含英文字母和數字。
 e.no_spaces = 遊戲名稱不允許包含空白字元。
+e.max_length = 遊戲名稱的長度必須介於1到{0}個字元之間。
 m.game_name = 遊戲名稱：
 l.five_day_challenge = 五日挑戰模式
 l.loading = 載入中
@@ -248,12 +270,12 @@ l.antialiasing_multisampling_2x = 2x多重採樣
 l.antialiasing_multisampling_4x = 4x多重採樣
 l.antialiasing_multisampling_8x = 8x多重採樣
 
-l.model_detail = 史萊姆品質：
+l.model_detail = 模型品質：
 l.model_detail_low = 低
 l.model_detail_medium = 中
 l.model_detail_high = 高
 
-l.water_detail = 水面品質：
+l.water_detail = 渲染品質：
 l.water_detail_low = 低
 l.water_detail_medium = 中
 l.water_detail_high = 高
@@ -375,7 +397,7 @@ m.gif_storing = 儲存GIF中
 
 # Achievements
 t.achievements = 成就
-m.achievement_unlocked = 已 解 鎖 成 就 ！
+m.achievement_unlocked = 已解鎖成就！
 m.achieve_progress = {0}/{1}
 m.achieve_overall_progress = 總數：{0}/{1}
 
@@ -387,6 +409,9 @@ e.savefile_inaccessible = 存檔無法寫入：{0}
 e.savefile_invalid_name = 存檔名稱無效，無法寫入：{0}
 e.savefile_dir_not_found = 找不到存檔資料夾：{0}
 e.savefile_unknown = 寫入存檔時發生一個未知的錯誤：{0}
+
+# Load Errors
+e.pushfile_error = 存檔{0}無法載入。請聯繫技術支持人員。
 
 # End game UI
 b.take_screenshot = 擷圖
@@ -401,7 +426,8 @@ m.none = 無
 # About
 b.about = 關於
 t.about = 關於《史萊姆牧場》
-l.game_design = 原始概念和遊戲設計
+l.concept_game_design = 原始概念和遊戲設計
+l.game_design = 遊戲設計
 l.programming = 程式
 l.art = 美術
 l.music_sfx = 音樂和音效
@@ -431,15 +457,25 @@ l.xbox_faq_a_whats_next = 我們有大量的內容正在開發，包含可探索
     還有全新的功能，例如：史萊姆科學！請至我們的網站了解更多：\n\
     slimerancher.com/roadmap
 
+# Xbox Demo Screen
+l.xbox_demo_title = 試玩版到此結束，但旅程才正要開始！
+l.xbox_demo_message = 購買《史萊姆牧場》完整版以保留您的進度並體驗下列驚豔的內容：\n\n\
+- 爆炸史萊姆、蜂蜜史萊姆、輻射史萊姆、獵手史萊姆，還有更多種類的史萊姆！\n\
+- 一個巨大、開放，充滿未知祕密的世界！\n\
+- 使用史萊姆科技來建造新奇的裝置和有用的工具！\n\
+- 揭開遠古遺蹟和其背後隱藏的祕密！
+b.xbox_visit_store_page = 造訪商店頁
+b.xbox_back_to_main_menu = 返回主選單
+
 # Gadget screens
 t.place_gadget = 安裝裝置
 t.fabricate_gadget = 製作裝置
 t.purchase_blueprint = 製作者商店
 t.refinery = 精鍊爐
 m.gadget_pair = {0} x2
-m.new_blueprint = 已 獲 得 藍 圖 ！
+m.new_blueprint = 已獲得藍圖！
 m.new_blueprint_hint = 請造訪製作機以製作此裝置。
-m.avail_blueprint = 新 藍 圖 發 售 中 ！
+m.avail_blueprint = 新藍圖發售中！
 m.avail_blueprint_hint = 請造訪製作者商店購買。
 m.ready = 就緒！
 l.installing = 安裝中
@@ -456,8 +492,88 @@ e.cannot_pickup_gadget = 此裝置不能撿取。
 l.score = 得分：
 
 # Upgrade avail screens
-m.avail_upgrade = 新 升 級 發 售 中 ！
+m.avail_upgrade = 新升級發售中！
 m.avail_upgrade_hint = 請造訪升級商店購買。
+
+t.corporate_partner = 7Zee獎勵俱樂部
+l.curr_rank = 目前階級：
+l.next_rank = 下一階級：
+l.rewards = 獎勵：
+
+e.ineligible_for_corp_level = 你未達到該階級的資格。
+e.already_has_corp_level = 你已經擁有該階級。
+
+t.chroma_packs = 配色布景
+
+m.partner_rank.1 = 新成員
+m.partner_rank.1.reward.1 = 風向雞
+m.partner_rank.2 = 先驅I
+m.partner_rank.2.reward.1 = 圍牆升級
+m.partner_rank.3 = 先驅II
+m.partner_rank.3.reward.1 = 道路升級
+m.partner_rank.4 = 先驅III
+m.partner_rank.4.reward.1 = 門廊升級
+m.partner_rank.5 = 雲雀I
+m.partner_rank.5.reward.1 = 配色布景站
+m.partner_rank.5.reward.2 = 鈷藍
+m.partner_rank.5.reward.3 = 奶昔
+m.partner_rank.6 = 雲雀II
+m.partner_rank.6.reward.1 = 拱門升級
+m.partner_rank.7 = 雲雀III
+m.partner_rank.7.reward.1 = 鞭炮
+m.partner_rank.7.reward.2 = 葡萄彈
+m.partner_rank.8 = 滾糞蟲I
+m.partner_rank.8.reward.1 = 史萊姆玩具店
+m.partner_rank.9 = 滾糞蟲II
+m.partner_rank.9.reward.1 = 金剛戰士
+m.partner_rank.9.reward.2 = 變形金剛
+m.partner_rank.10 = 滾糞蟲III
+m.partner_rank.10.reward.1 = 高級史萊姆玩具
+m.partner_rank.11 = 頑皮狐I
+m.partner_rank.11.reward.1 = 薑餅
+m.partner_rank.11.reward.2 = 豌豆莢
+m.partner_rank.12 = 頑皮狐II
+m.partner_rank.12.reward.1 = 石窟升級
+m.partner_rank.13 = 頑皮狐III
+m.partner_rank.13.reward.1 = 先鋒
+m.partner_rank.13.reward.2 = 楊柳
+m.partner_rank.14 = 銀風暴I
+m.partner_rank.14.reward.1 = 史萊姆獎盃I
+m.partner_rank.15 = 銀風暴II
+m.partner_rank.15.reward.1 = 破曉
+m.partner_rank.15.reward.2 = 黃昏
+m.partner_rank.16 = 銀風暴III
+m.partner_rank.16.reward.1 = 茂林升級
+m.partner_rank.17 = 舞動獴I
+m.partner_rank.17.reward.1 = 火蜥蜴
+m.partner_rank.17.reward.2 = 皇家頓
+m.partner_rank.18 = 舞動獴II
+m.partner_rank.18.reward.1 = 史萊姆獎盃II
+m.partner_rank.19 = 舞動獴III
+m.partner_rank.19.reward.1 = 香草巧克力草莓
+m.partner_rank.19.reward.2 = 薄荷巧克力
+m.partner_rank.20 = 無盡山I
+m.partner_rank.20.reward.1 = 儲槽增容器超級版
+m.partner_rank.21 = 無盡山II
+m.partner_rank.21.reward.1 = 鬼酒
+m.partner_rank.21.reward.2 = 火山
+m.partner_rank.22 = 無盡山III
+m.partner_rank.22.reward.1 = 實驗室升級
+m.partner_rank.23 = 徘徊狼I
+m.partner_rank.23.reward.1 = 騎士之光
+m.partner_rank.23.reward.2 = 響亮之聲
+m.partner_rank.24 = 徘徊狼II
+m.partner_rank.24.reward.1 = 史萊姆獎盃III
+m.partner_rank.25 = 徘徊狼III
+m.partner_rank.25.reward.1 = 銀狐
+m.partner_rank.25.reward.2 = 冷紫
+m.partner_rank.26 = 黃金梟I
+m.partner_rank.26.reward.1 = 碼頭升級
+m.partner_rank.27 = 黃金梟II
+m.partner_rank.27.reward.1 = 金葉
+m.partner_rank.27.reward.2 = 星體珍珠
+m.partner_rank.28 = 黃金梟III
+m.partner_rank.28.reward.1 = 史萊姆獎盃IV
 
 # Tips
 m.loadingtip.0 = 營養充足的史萊姆就是快樂的史萊姆。
