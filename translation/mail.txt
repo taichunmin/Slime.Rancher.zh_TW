@@ -1,49 +1,49 @@
 # Contents of starmail in the game.
 
 m.subj.welcome = 歡迎來到遠遠星球
-m.from.welcome = 7Zee股份有限公司
+m.from.welcome = 7Zee 公司
 m.body.welcome = 樂博女士，\n\n\
-	7Zee股份有限公司歡迎您來到遠遠星球，我們將會在您作為史萊姆牧場主的新冒險生涯上提供協助。\n\n\
+	7Zee 公司歡迎您來到遠遠星球，我們將會在您作為史萊姆牧場主的新冒險生涯上提供協助。\n\n\
 	我們同時也要請您在初次來到遠遠星球的幾日內注意安全。在您熟悉周圍的環境之前，\
 	最好不要在夜晚外出探險。\n\n\
-	最後，如果您需要為吸取器進行任何升級，7Zee股份有限公司很樂意為您提供升級配件，\
+	最後，如果您需要為吸取器進行任何升級，7Zee 公司很樂意為您提供升級配件，\
 	商店就位於您牧場小屋的門外。\n\n\
-	<i>7Zee股份有限公司：只需支付少許費用，就會提供您完成工作所需的工具，共創雙贏。</i>\n\n\
-	- 7Zee股份有限公司
+	<i>7Zee 公司：只需支付少許費用，就會提供您完成工作所需的工具，共創雙贏。</i>\n\n\
+	- 7Zee 公司
 
 m.subj.partner_rewards = 7Zee獎勵俱樂部
-m.from.partner_rewards = 7Zee股份有限公司
+m.from.partner_rewards = 7Zee 公司
 m.body.partner_rewards = 樂博女士，\n\n\
-	The 7Zee Corporation would like to extend a very special offer to you: an invitation to the very exclusive, exceptionally choice, highly sought-after '7Zee Rewards Club!'\n\n\
-	The 7Zee Rewards Club allows you to earn ultra premium ranks within an exclusive club, for only a semi-ultra premium price. It's just that easy.\n\n\
-	Each rank grants you a new club title, along with unique rewards such as beautiful upgrades for your ranch, exclusive customization options, and more. We look forward to your enrollment.\n\n\
-	<i>The 7Zee Corporation: Offering you a path to to greatness, one large sum of newbucks at a time.</i>\n\n\
-    - 7Zee股份有限公司
+	7Zee 公司希望向您拓展一個非常特別的服務：一個非常獨享、特別的選擇；超級搶手的「7Zee 獎勵俱樂部」邀請函\n\n\
+	7Zee 獎勵俱樂部允許您在私人俱樂部內賺取超高等級，您只要付出一些小小的代價，就是這麼簡單。\n\n\
+	每個獎勵俱樂部等級授予您一個新的頭銜，還有一些獨特的獎勵，像是為您的牧場做一些漂亮的升級，獨家的客製化選項…等等。我們期待您的報名。\n\n\
+	<i>7Zee 公司：帶您前往更美好、更富有的未來。</i>\n\n\
+    - 7Zee 公司
 
-m.subj.rewards_level_5 = Chroma Packs Now Available
-m.from.rewards_level_5 = 7Zee股份有限公司
+m.subj.rewards_level_5 = 配色布景站現已開放
+m.from.rewards_level_5 = 7Zee 公司
 m.body.rewards_level_5 = 樂博女士，\n\n\
-	The 7Zee Corporation would like to congratulate you on obtaining the rank of Skylark I. With this rank you now have access to a new avenue of creative self-expression: Chroma Packs.\n\n\
-	Chroma Packs allow you to apply new color schemes to your ranch house, vacpack, and ranch tech, allowing you to stand out from all the other ranchers on the Far, Far, Range. And while we realize that most slime ranchers never even see another rancher given geographic separation between rancher properties, we have a feeling that they know. Oh yes, they know.\n\n\
-	Please also note that by the time you have likely read this message, the 7Zee Corporation has already installed a Chroma Pack terminal just outside your home.\n\n\
-	<i>The 7Zee Corporation: Covertly installing machines outside your home quickly... and reliably.</i>\n\n\
-	- 7Zee股份有限公司
+  7Zee 公司恭賀您獲得新的俱樂部頭銜：雲雀 I。 在這個等級您會獲得一個可以展現創意、表現自我的新方式：配色布景終端\n\n\
+	配色布景終端允許您將新的色彩配置套用到您的牧場、吸取器以及牧場裝置，讓您能從遠遠星球的所有牧場主之中脫穎而出。 雖然我們知道，因為地理因素的區隔，大多數的史萊姆牧場主甚至從來沒有看過其他牧場主的牧場。 但是我們覺得他們會知道。 對，沒錯，他們一定知道。\n\n\
+	當您讀到這封信時，7Zee 公司應該已經在您的房子外面安裝好配色布景的終端機器。\n\n\
+	<i>7Zee 公司: 偷偷地在你家外面迅速…而且可靠地安裝機器</i>\n\n\
+	- 7Zee 公司
 
 m.subj.rewards_level_8 = Slime Enrichment Devices Now on Sale
-m.from.rewards_level_8 = 7Zee股份有限公司
+m.from.rewards_level_8 = 7Zee 公司
 m.body.rewards_level_8 = 樂博女士，\n\n\
-	The 7Zee Corporation would like to congratulate you on obtaining the rank of Rolling Beetle I. With this rank you now have access to a revolutionary, new technology for slime enrichment and preoccupation from activities that would otherwise hinder ranching. We call this new technology: slime toys.\n\n\
+	7Zee 公司恭賀您獲得新的俱樂部頭銜：滾糞蟲 I。 現在, 您可以獲得一個革命性的技術, 使您的史萊姆冷靜並專注于其他不會阻礙牧場的活動。我們稱之為：史萊姆玩具。\n\n\
 	Slime toys can now be purchased from the shop we have...... just....... installed....... on....... your..... ranch. Please excuse the excessive pauses in that last sentence, but our technician drones may have needed extra time for the installation and we did not wish for our claim to be inaccurate.\n\n\
 	<i>The 7Zee Corporation: giving robots time to do their job right, one sentence at a time.</i>\n\n\
-    - 7Zee股份有限公司
+    - 7Zee 公司
 
 m.subj.rewards_level_max = Thank You for Your Contribution
-m.from.rewards_level_max = 7Zee股份有限公司
+m.from.rewards_level_max = 7Zee 公司
 m.body.rewards_level_max = 樂博女士，\n\n\
-	We at the 7Zee Corporation are absolutely taken aback by your commitment to the 7Zee Rewards Club. You have achieved the highest possible rank currently available to rewards club members; congratulations.\n\n\
+	We at the 7Zee Corporation are absolutely taken aback by your commitment to 7Zee 獎勵俱樂部. You have achieved the highest possible rank currently available to rewards club members; congratulations.\n\n\
 	Having no further ranks or rewards to offer you at this time, we have elected to make a substantial charitable contribution in your name to the International Association for Otter Awareness. Because of your efforts, more people will be aware of otters than ever before.\n\n\
 	<i>The 7Zee Corporation: creating systems that enable ranchers to purchase rewards that result in charity that raise otter awareness... one smile at a time.</i>\n\n\
-    - 7Zee股份有限公司
+    - 7Zee 公司
 
 ### Exchange Intro mails
 m.subj.exchangeintro_thora = 歡迎來到遠遠交易所！
