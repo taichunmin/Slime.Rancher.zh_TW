@@ -47,6 +47,7 @@ m.Space = 空白鍵
 m.Slash = /
 m.Backslash = \
 
+
 #Gamepad
 
 m.Action1 = A

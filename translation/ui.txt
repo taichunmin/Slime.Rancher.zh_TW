@@ -5,6 +5,7 @@ l.version_watermark_xbox = CodeBay.in 正體中文模組 v{0}
 l.version_full_watermark = Version: {0} ({1})
 l.version = v{0}
 
+
 # Slimepedia pages (Note: for per-topic info, see pedia.txt)
 t.pedia = 史萊姆百科
 m.new_pedia_entry = 新百科條目：

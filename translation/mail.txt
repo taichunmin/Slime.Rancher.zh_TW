@@ -45,45 +45,6 @@ m.body.rewards_level_max = 樂博女士，\n\n\
 	<i>The 7Zee Corporation: creating systems that enable ranchers to purchase rewards that result in charity that raise otter awareness... one smile at a time.</i>\n\n\
     - 7Zee股份有限公司
 
-### Upgrade emails
-m.subj.upgrade_jetpack_efficiency = 空氣推進器發售中
-m.from.upgrade_jetpack_efficiency = 7Zee股份有限公司
-m.body.upgrade_jetpack_efficiency = 本商品已於升級商店上架。
-
-m.subj.upgrade_health_2 = 心臟模組II型發售中
-m.from.upgrade_health_2 = 7Zee股份有限公司
-m.body.upgrade_health_2 = 本商品已於升級商店上架。
-
-m.subj.upgrade_health_3 = 心臟模組III型發售中
-m.from.upgrade_health_3 = 7Zee股份有限公司
-m.body.upgrade_health_3 = 本商品已於升級商店上架。
-
-m.subj.upgrade_energy_2 = 能量核心II型發售中
-m.from.upgrade_energy_2 = 7Zee股份有限公司
-m.body.upgrade_energy_2 = 本商品已於升級商店上架。
-
-m.subj.upgrade_energy_3 = 能量核心III型發售中
-m.from.upgrade_energy_3 = 7Zee股份有限公司
-m.body.upgrade_energy_3 = 本商品已於升級商店上架。
-
-m.subj.upgrade_ammo_2 = 儲槽增容器II型發售中
-m.from.upgrade_ammo_2 = 7Zee股份有限公司
-m.body.upgrade_ammo_2 = 本商品已於升級商店上架。
-
-m.subj.upgrade_ammo_3 = 儲槽增容器III型發售中
-m.from.upgrade_ammo_3 = 7Zee股份有限公司
-m.body.upgrade_ammo_3 = 本商品已於升級商店上架。
-
-m.subj.upgrade_run_efficiency = 衝刺靴發售中
-m.from.upgrade_run_efficiency = 7Zee股份有限公司
-m.body.upgrade_run_efficiency = 本商品已於升級商店上架。
-
-m.subj.upgrade_air_burst = 脈衝波發售中
-m.from.upgrade_air_burst = 7Zee股份有限公司
-m.body.upgrade_air_burst = 本商品已於升級商店上架。
-
-
-
 ### Exchange Intro mails
 m.subj.exchangeintro_thora = 歡迎來到遠遠交易所！
 m.from.exchangeintro_thora = 索拉．威斯特

@@ -60,7 +60,6 @@ l.quantum_phosphor_largo = 量子螢光史萊姆
 l.quantum_tabby_largo = 量子斑貓史萊姆
 l.quantum_hunter_largo = 量子獵手史萊姆
 l.quantum_crystal_largo = 量子水晶史萊姆
-l.quantum_rock_largo = 量子岩石史萊姆
 
 l.rad_plort = 輻射結晶
 l.rock_plort = 岩石結晶
