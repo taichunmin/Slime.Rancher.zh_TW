@@ -29,11 +29,11 @@ m.body.rewards_level_5 = 樂博女士，\n\n\
 	<i>7Zee 公司: 偷偷地在你家外面迅速…而且可靠地安裝機器</i>\n\n\
 	- 7Zee 公司
 
-m.subj.rewards_level_8 = Slime Enrichment Devices Now on Sale
+m.subj.rewards_level_8 = 史萊姆玩具現已上市
 m.from.rewards_level_8 = 7Zee 公司
 m.body.rewards_level_8 = 樂博女士，\n\n\
 	7Zee 公司恭賀您獲得新的俱樂部頭銜：滾糞蟲 I。 現在, 您可以獲得一個革命性的技術, 使您的史萊姆冷靜並專注于其他不會阻礙牧場的活動。我們稱之為：史萊姆玩具。\n\n\
-	Slime toys can now be purchased from the shop we have...... just....... installed....... on....... your..... ranch. Please excuse the excessive pauses in that last sentence, but our technician drones may have needed extra time for the installation and we did not wish for our claim to be inaccurate.\n\n\
+	史萊姆玩具現在已經可以從...我們公司...剛安裝好的...商店...購買。請原諒我在剛剛那句話中有所遲疑，我們公司的無人機可能需要一些時間來安裝商店，我不希望我的訊息不夠準確。\n\n\
 	<i>The 7Zee Corporation: giving robots time to do their job right, one sentence at a time.</i>\n\n\
     - 7Zee 公司
 
