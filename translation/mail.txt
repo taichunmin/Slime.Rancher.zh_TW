@@ -37,7 +37,7 @@ m.body.rewards_level_8 = 樂博女士，\n\n\
 	<i>7Zee 公司：每次都只給機器人一句話時間腳踏實地的幫您把事情做好。</i>\n\n\
     - 7Zee 公司
 
-m.subj.rewards_level_max = Thank You for Your Contribution
+m.subj.rewards_level_max = 感謝您的貢獻
 m.from.rewards_level_max = 7Zee 公司
 m.body.rewards_level_max = 樂博女士，\n\n\
 	We at the 7Zee Corporation are absolutely taken aback by your commitment to 7Zee 獎勵俱樂部. You have achieved the highest possible rank currently available to rewards club members; congratulations.\n\n\
