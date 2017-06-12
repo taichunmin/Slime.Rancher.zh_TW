@@ -18,7 +18,7 @@ m.body.partner_rewards = 樂博女士，\n\n\
 	7Zee 獎勵俱樂部允許您在私人俱樂部內賺取超高等級，您只要付出一些小小的代價，就是這麼簡單。\n\n\
 	每個獎勵俱樂部等級授予您一個新的頭銜，還有一些獨特的獎勵，像是為您的牧場做一些漂亮的升級，獨家的客製化選項…等等。我們期待您的報名。\n\n\
 	<i>7Zee 公司：帶您前往更美好、更富有的未來。</i>\n\n\
-    - 7Zee 公司
+	- 7Zee 公司
 
 m.subj.rewards_level_5 = 配色布景修改器現已開放
 m.from.rewards_level_5 = 7Zee 公司
@@ -35,15 +35,15 @@ m.body.rewards_level_8 = 樂博女士，\n\n\
 	7Zee 公司恭賀您獲得新的俱樂部頭銜：滾糞蟲 I。 現在, 您可以獲得一個革命性的技術, 使您的史萊姆冷靜並專注于其他不會阻礙牧場的活動。我們稱之為：史萊姆玩具。\n\n\
 	史萊姆玩具現在已經可以從...我們公司...剛安裝好的...商店...購買。請原諒我在剛剛那句話中有所遲疑，我們公司的機器人可能需要一些時間來安裝商店，我不希望我的訊息不夠準確。\n\n\
 	<i>7Zee 公司：每次都只給機器人一句話時間腳踏實地的幫您把事情做好。</i>\n\n\
-    - 7Zee 公司
+	- 7Zee 公司
 
 m.subj.rewards_level_max = 感謝您的貢獻
 m.from.rewards_level_max = 7Zee 公司
 m.body.rewards_level_max = 樂博女士，\n\n\
-	We at the 7Zee Corporation are absolutely taken aback by your commitment to 7Zee 獎勵俱樂部. You have achieved the highest possible rank currently available to rewards club members; congratulations.\n\n\
-	Having no further ranks or rewards to offer you at this time, we have elected to make a substantial charitable contribution in your name to the International Association for Otter Awareness. Because of your efforts, more people will be aware of otters than ever before.\n\n\
-	<i>The 7Zee Corporation: creating systems that enable ranchers to purchase rewards that result in charity that raise otter awareness... one smile at a time.</i>\n\n\
-    - 7Zee 公司
+	我們 7Zee 公司的人絕對都被您慷慨地貢獻 7Zee 獎勵俱樂部嚇到了。您已經獲得了目前獎勵俱樂部的最高會員等級。恭喜。\n\n\
+	現在已經沒有任何等級和獎勵可以給您了，所以我們選擇以您的名義向國際水獺保護組織捐出大量善款。由於您的努力，相信會有更多人會比以前更關心水獺。\n\n\
+	<i>7Zee 公司：每次用一個微笑來創造一個讓牧場主購買獎勵，以對造福水獺的慈善組織做出貢獻的生態。</i>\n\n\
+	- 7Zee 公司
 
 ### Exchange Intro mails
 m.subj.exchangeintro_thora = 歡迎來到遠遠交易所！
@@ -94,11 +94,11 @@ m.body.exchangeintro_bob = 妳好，\n\
 
 
 ### Personal mails
-m.subj.casey_1 = Rise and shine!
+m.subj.casey_1 = 快快起床然後大顯身手吧！
 m.from.casey_1 = 凱西
 m.body.casey_1 = Hi Bea,\n\n\
-    What's it like to sleep for a whole year? Did you dream? I can't imagine what that's like. 7Zee puts you in a pod and then lights out for all that time... wow.\n\n\
-	What's the Far, Far Range like? Have you started exploring? Is the air as clear as they say? I bet it's really beautiful.\n\n\
+	睡了一整年有什麼感覺呢？你有作夢嗎？我真的沒辦法體會那種感覺。那個時候，7Zee 公司把你放進了一個豆莢大小的太空船內，然後就把它發射出去…太壯觀了！\n\n\
+	遠遠星球是什麼樣子呢？你開始探索了嗎？那邊的空氣真的像他們說的一樣乾淨嗎？我敢打賭它一定很漂亮。\n\n\
 	I'm probably asking too many questions. I bet you have a lot of work to do. The pics of that ranch were pretty run down. I still can't believe it's yours now.\n\n\
 	I guess I better leave you to it. Be thankful that I didn't send any of the mails I wrote you over the last year. You would have had a whole novel to read when you woke up!\n\n\
 	I'll keep it short: good luck, Bea. If anyone can make it out there, it's you.\n\n\
